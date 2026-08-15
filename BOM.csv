@@ -1,0 +1,23 @@
+STM BILL OF MATERIALS:,,,,,
+#,Part,QTY,Supplier,Cost,Purpose
+1,Tungstem Wire 0.25mm,1,Amazon (uxcell),10$,Tip Material
+2,rooto pure lye,1,Rooto,13,Tip Etching Solution
+3,HOPG ZYB 10x10x1mm,1 (double sided in case tip breaks),nanotips,131,surface of imaging
+4,OPA828ID OP-amp,1,Digikey,10,transimpedance preamp
+5,100M ohm precision resistor,10,Digikey,4,Preamp Feedbacl
+6,DAC8814 16 bit quad DAC,1,Digikey,52,Piezo drive signal
+7,LTC2326-16 ADC,1,Digikey,49,Reads Preamp Output
+8,Passives Assortment R/C,1,Amazon (uxcell),17,Supporting Circuitry
+9,Perfboard,1,Amazon,10,Preamp board
+10,teensy 4.1,1,Amazon,43,PID feedback loop
+11,Piezo Buzzer 27mm,10,Amazon,8,XYZ scanner
+12,Stepper 28BYJ + ULN2003,1,Amazon,15,Coarse approach
+13,"Steel plate 6x6x1/4"" A36",2pc,Amazon,41,Vibration Mass
+14,Bungee Cords,1 set,Amazon,25,Vibration Isolation
+15,Copper tape 1/4',1 roll,Amazon,10,EMI shieldings
+16,Alligator to male jumper wires,3 sets,Amazon,30,Test connections
+17,F-F jumper wires,1 pk,Amazon,6,Teensy Wiring
+18,HANTEK oscilloscope,1,Amazon,70,Preamp debugging
+19,ASTROAI multimeter,1,Amazon,34,Voltage checks
+20,Helping Hands + Soldering Mat,1,Amazon,21,Helping Soldering (never done it before)
+FINAL ITEM AMOUNT: 20,,,"SUPPLIES: Amazon, DIGIKEY",FINAL COST 599 USD,
