@@ -1,23 +1,39 @@
-STM BILL OF MATERIALS:,,,,,
-#,Part,QTY,Supplier,Cost,Purpose
-1,Tungstem Wire 0.25mm,1,Amazon (uxcell),10$,Tip Material
-2,rooto pure lye,1,Rooto,13,Tip Etching Solution
-3,HOPG ZYB 10x10x1mm,1 (double sided in case tip breaks),nanotips,131,surface of imaging
-4,OPA828ID OP-amp,1,Digikey,10,transimpedance preamp
-5,100M ohm precision resistor,10,Digikey,4,Preamp Feedbacl
-6,DAC8814 16 bit quad DAC,1,Digikey,52,Piezo drive signal
-7,LTC2326-16 ADC,1,Digikey,49,Reads Preamp Output
-8,Passives Assortment R/C,1,Amazon (uxcell),17,Supporting Circuitry
-9,Perfboard,1,Amazon,10,Preamp board
-10,teensy 4.1,1,Amazon,43,PID feedback loop
-11,Piezo Buzzer 27mm,10,Amazon,8,XYZ scanner
-12,Stepper 28BYJ + ULN2003,1,Amazon,15,Coarse approach
-13,"Steel plate 6x6x1/4"" A36",2pc,Amazon,41,Vibration Mass
-14,Bungee Cords,1 set,Amazon,25,Vibration Isolation
-15,Copper tape 1/4',1 roll,Amazon,10,EMI shieldings
-16,Alligator to male jumper wires,3 sets,Amazon,30,Test connections
-17,F-F jumper wires,1 pk,Amazon,6,Teensy Wiring
-18,HANTEK oscilloscope,1,Amazon,70,Preamp debugging
-19,ASTROAI multimeter,1,Amazon,34,Voltage checks
-20,Helping Hands + Soldering Mat,1,Amazon,21,Helping Soldering (never done it before)
-FINAL ITEM AMOUNT: 20,,,"SUPPLIES: Amazon, DIGIKEY",FINAL COST 599 USD,
+STM BILL OF MATERIALS — GRANT-FUNDED ITEMS,,,,,
+#,Part,QTY,Supplier,Cost (USD),Purpose
+,--- CONTROLLER BOARD ---,,,,
+1,ESP32-DevKitC (WROOM-32),1,Amazon / Mouser,15,Runs firmware and feedback loop
+2,DAC 2 Click (LTC2601 16-bit) MIKROE-950,3,Mikroe / Mouser,96,Drives piezo X Y Z quadrants
+3,ADC 8 Click (ADS1115 16-bit) MIKROE-3164,1,Mikroe / Mouser,32,Reads tunneling amplifier output
+4,TL072 op-amp,2,Digikey,3,Controller signal conditioning
+5,"USB-TTL Converter PL2303 (TA version, not HXA)",1,Amazon,12,40k+ baud data link; ESP32 micro-USB caps at 10k
+6,Micro-USB cable,1,Amazon,8,ESP32 flashing
+7,Screw terminals 2.54 mm + male/female pin headers,1 set,Amazon,14,Sockets ESP32 and Click boards so parts are swappable
+8,"Resistors: 17x 3k3 / 9x 220 / 1x 1k6",1 set,Digikey,10,Controller board
+9,"Capacitors: 6x 4n7F / 4x 100nF",1 set,Digikey,8,Controller board
+10,Diode 1N5819,2,Digikey,3,Controller board — polarized
+11,LEDs 5 mm and 3 mm assorted,1 set,Amazon,8,Status indicators
+12,Jumper cables female-to-male,30,Amazon,9,Board interconnects
+,--- TUNNELING AMPLIFIER ---,,,,
+13,ADA4637-1ARZ op-amp,2,Digikey,30,Transimpedance preamp; second is a spare
+14,RC1206JR-07100ML 100M ohm SMD resistor,5,Digikey,12,Preamp feedback; spares included
+15,Shielding can BMI-S-201-F,1,Digikey,6,Shields preamp; leave one corner exposed for ground
+16,"SMD caps: 2x 47nF / 2x 1uF / 2x 4.7uF-35V (TAJ 6032)",1 set,Digikey,15,Preamp; 4.7uF parts are polarized and must be 35 V rated
+,--- PCBs ---,,,,
+17,Controller Board PCB (PeterDirnhofer KiCad_RTM_Adapterboard_v3_0),1,JLCPCB,25,Main board
+18,Tunnelling-Amp PCB (PeterDirnhofer Tunnelling-Amp-20),1,JLCPCB,20,Preamp board
+,--- MECHANICS ---,,,,
+19,Thorlabs KC1T/M kinematic mount,1,Thorlabs,95,Scan head; three fine adjusters. KC1-T/M was discontinued in 2022
+20,Thorlabs ER2-P4 cage rods 2 in 4-pack,1,Thorlabs,32,Cage frame
+21,Thorlabs SP05/M cage adapter plate,1,Thorlabs,42,Cage frame
+,--- SCANNER HEAD ---,,,,
+22,Piezo disks 20 mm,10,Amazon,12,Quadrant scanner; cut into four with a scalpel
+23,Gold pins,10,Amazon,10,Bond to piezo quadrants
+24,Conductive silver lacquer,1,Amazon,20,Restores conductivity between pin and quadrant
+25,Silver wire 0.25 mm,1,Amazon,15,Tips; cut at 30 degrees
+26,Enamelled copper wire 0.1 mm,1,Amazon,8,Flexible leads to piezo quadrants
+,--- POWER ---,,,,
+27,10x AA battery holder,2,Amazon,10,Supplies +15 V and -15 V
+28,1x AA battery holder,1,Amazon,4,Sample bias
+29,AA batteries,24,Amazon,25,21 needed plus spares
+,ITEMIZED GRANT-FUNDED SUBTOTAL,,,599,
+,GRANT FUNDING REQUESTED,,,600,
