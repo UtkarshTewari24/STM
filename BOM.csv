@@ -1,39 +1,41 @@
-STM BILL OF MATERIALS — GRANT-FUNDED ITEMS,,,,,
-#,Part,QTY,Supplier,Cost (USD),Purpose
-,--- CONTROLLER BOARD ---,,,,
-1,ESP32-DevKitC (WROOM-32),1,Amazon / Mouser,15,Runs firmware and feedback loop
-2,DAC 2 Click (LTC2601 16-bit) MIKROE-950,3,Mikroe / Mouser,96,Drives piezo X Y Z quadrants
-3,ADC 8 Click (ADS1115 16-bit) MIKROE-3164,1,Mikroe / Mouser,32,Reads tunneling amplifier output
-4,TL072 op-amp,2,Digikey,3,Controller signal conditioning
-5,"USB-TTL Converter PL2303 (TA version, not HXA)",1,Amazon,12,40k+ baud data link; ESP32 micro-USB caps at 10k
-6,Micro-USB cable,1,Amazon,8,ESP32 flashing
-7,Screw terminals 2.54 mm + male/female pin headers,1 set,Amazon,14,Sockets ESP32 and Click boards so parts are swappable
-8,"Resistors: 17x 3k3 / 9x 220 / 1x 1k6",1 set,Digikey,10,Controller board
-9,"Capacitors: 6x 4n7F / 4x 100nF",1 set,Digikey,8,Controller board
-10,Diode 1N5819,2,Digikey,3,Controller board — polarized
-11,LEDs 5 mm and 3 mm assorted,1 set,Amazon,8,Status indicators
-12,Jumper cables female-to-male,30,Amazon,9,Board interconnects
-,--- TUNNELING AMPLIFIER ---,,,,
-13,ADA4637-1ARZ op-amp,2,Digikey,30,Transimpedance preamp; second is a spare
-14,RC1206JR-07100ML 100M ohm SMD resistor,5,Digikey,12,Preamp feedback; spares included
-15,Shielding can BMI-S-201-F,1,Digikey,6,Shields preamp; leave one corner exposed for ground
-16,"SMD caps: 2x 47nF / 2x 1uF / 2x 4.7uF-35V (TAJ 6032)",1 set,Digikey,15,Preamp; 4.7uF parts are polarized and must be 35 V rated
-,--- PCBs ---,,,,
-17,Controller Board PCB (PeterDirnhofer KiCad_RTM_Adapterboard_v3_0),1,JLCPCB,25,Main board
-18,Tunnelling-Amp PCB (PeterDirnhofer Tunnelling-Amp-20),1,JLCPCB,20,Preamp board
-,--- MECHANICS ---,,,,
-19,Thorlabs KC1T/M kinematic mount,1,Thorlabs,95,Scan head; three fine adjusters. KC1-T/M was discontinued in 2022
-20,Thorlabs ER2-P4 cage rods 2 in 4-pack,1,Thorlabs,32,Cage frame
-21,Thorlabs SP05/M cage adapter plate,1,Thorlabs,42,Cage frame
-,--- SCANNER HEAD ---,,,,
-22,Piezo disks 20 mm,10,Amazon,12,Quadrant scanner; cut into four with a scalpel
-23,Gold pins,10,Amazon,10,Bond to piezo quadrants
-24,Conductive silver lacquer,1,Amazon,20,Restores conductivity between pin and quadrant
-25,Silver wire 0.25 mm,1,Amazon,15,Tips; cut at 30 degrees
-26,Enamelled copper wire 0.1 mm,1,Amazon,8,Flexible leads to piezo quadrants
-,--- POWER ---,,,,
-27,10x AA battery holder,2,Amazon,10,Supplies +15 V and -15 V
-28,1x AA battery holder,1,Amazon,4,Sample bias
-29,AA batteries,24,Amazon,25,21 needed plus spares
-,ITEMIZED GRANT-FUNDED SUBTOTAL,,,599,
-,GRANT FUNDING REQUESTED,,,600,
+STM BILL OF MATERIALS — PLANNED BUILD,,,,,,
+#,Part,Qty,Supplier,Cost (USD),Purchase URL,Purpose
+,--- CONTROLLER BOARD ---,,,,,
+1,ESP32-DevKitC (WROOM-32),1,Mouser,15,https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-DevKitC-32D,Runs the firmware and feedback loop
+2,DAC 2 Click (LTC2601 16-bit) MIKROE-950,3,Mikroe,96,https://www.mikroe.com/dac-2-click,Drives the piezo scanner's X Y and Z quadrants
+3,ADC 8 Click (ADS1115 16-bit) MIKROE-3164,1,Mikroe,32,https://www.mikroe.com/adc-8-click,Reads the tunneling-amplifier output
+4,TL072 op-amp,2,DigiKey,3,https://www.digikey.com/en/products/detail/texas-instruments/TL072ACDR/562849,Conditions controller signals
+5,USB-TTL Converter PL2303TA (not HXA),1,ElectroPeak,1.05,https://electropeak.com/pl2303ta-usb-to-ttl-cable,Provides the high-speed data link
+6,USB-A to Micro-B cable 3 ft,1,Adafruit,2.95,https://www.adafruit.com/product/592,Flashes the ESP32
+7,2.54 mm terminals plus male/female pin headers,1 set,SparkFun + Amazon,6,https://www.sparkfun.com/products/116 | https://www.sparkfun.com/products/115 | https://www.amazon.com/dp/B08XWCN43C,Makes the ESP32 and Click boards replaceable
+8,Resistors: 17x 3k3 / 9x 220 / 1x 1k6,1 set,DigiKey,10,https://www.digikey.com/en/products/result?keywords=3.3k%20220%201.6k%20resistor,Controller board parts
+9,Capacitors: 6x 4n7F / 4x 100nF,1 set,DigiKey,8,https://www.digikey.com/en/products/result?keywords=4.7nF%20100nF%20ceramic%20capacitor,Controller board parts
+10,Diode 1N5819,2,DigiKey,3,https://www.digikey.com/en/products/detail/onsemi/1N5819RLG/1471526,Polarized controller-board protection parts
+11,Assorted 5 mm and 3 mm LEDs,1 set,Amazon,8,https://www.amazon.com/s?k=5mm+3mm+assorted+LED+kit,Status indicators
+12,Female-to-male jumper cables,30,Amazon,9,https://www.amazon.com/s?k=female+to+male+jumper+wires,Board interconnects
+,--- TUNNELING AMPLIFIER ---,,,,,
+13,ADA4637-1ARZ op-amp,2,DigiKey,30,https://www.digikey.com/en/products/result?keywords=ADA4637-1ARZ,Transimpedance preamplifier; one spare
+14,RC1206JR-07100ML 100M ohm SMD resistor,5,DigiKey,12,https://www.digikey.com/en/products/detail/yageo/RC1206JR-07100ML/5919157,Preamp feedback resistors; includes spares
+15,Shielding can BMI-S-201-F,1,DigiKey,6,https://www.digikey.com/en/products/result?keywords=BMI-S-201-F,Shields the preamplifier; leave one corner available for ground
+16,SMD caps: 2x 47nF / 2x 1uF / 2x 4.7uF 35V (TAJ6032),1 set,DigiKey,15,https://www.digikey.com/en/products/result?keywords=TAJ6032%2047nF%201uF,Preamp decoupling; 4.7uF parts must be polarized and 35 V rated
+,--- PCBs ---,,,,,
+17,Controller board PCB (KiCad_RTM_Adapterboard_v3_0),1,JLCPCB,25,https://jlcpcb.com/,Main board fabrication
+18,Tunneling-amplifier PCB (Tunnelling-Amp-20),1,JLCPCB,20,https://jlcpcb.com/,Preamplifier board fabrication
+,--- MECHANICS ---,,,,,
+19,Thorlabs KC1T/M kinematic mount,1,Thorlabs,95,https://www.thorlabs.com/thorproduct.cfm?partnumber=KC1T%2FM,Scan head with three fine adjusters
+20,Thorlabs ER2-P4 cage rods 2 in 4-pack,1,Thorlabs,32,https://www.thorlabs.com/thorproduct.cfm?partnumber=ER2-P4,Cage frame
+21,Thorlabs SP05/M cage adapter plate,1,Thorlabs,42,https://www.thorlabs.com/thorproduct.cfm?partnumber=SP05%2FM,Cage frame
+,--- SCANNER HEAD ---,,,,,
+22,Piezo disks 20 mm,10,Amazon,12,https://www.amazon.com/s?k=20mm+piezo+discs,Quartered to make the piezo scanner
+23,Gold pins,10,Amazon,10,https://www.amazon.com/s?k=gold+plated+PCB+pins,Bond to piezo quadrants
+24,Conductive silver lacquer,1,Amazon,20,https://www.amazon.com/s?k=conductive+silver+lacquer,Restores conductivity between each pin and quadrant
+25,Silver wire 0.25 mm,1,Amazon,15,https://www.amazon.com/s?k=0.25mm+silver+wire,Tip stock; cut at 30 degrees
+26,Enamelled copper wire 0.1 mm,1,Amazon,8,https://www.amazon.com/s?k=0.1mm+enameled+copper+wire,Flexible leads to piezo quadrants
+,--- POWER ---,,,,,
+27,10x AA battery holder,2,Amazon,10,https://www.amazon.com/s?k=10x+AA+battery+holder,Supplies +15 V and -15 V
+28,1x AA battery holder,1,Amazon,4,https://www.amazon.com/s?k=1x+AA+battery+holder,Sample bias
+29,AA batteries,24,Amazon,25,https://www.amazon.com/s?k=AA+alkaline+batteries+24+pack,21 needed plus spares
+,ESTIMATED PARTS SUBTOTAL,,,575.00,,Before tax and shipping
+,GRANT FUNDING REQUESTED,,,600.00,,The $25.00 difference covers price changes and checkout costs
+,,,,,,
+,PRICE NOTE,,,,,Links and estimates were checked on 2026-08-27; confirm availability and final price before ordering.
