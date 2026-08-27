@@ -29,7 +29,7 @@ That sensitivity lets the microscope scan a surface one line at a time. It can e
 
 The exact part list, quantities, current budget estimates, and purchase links are in [BOM.csv](BOM.csv).
 
-The estimated parts subtotal is **$575 before tax and shipping**. The $600 request leaves a $25 buffer for checkout price changes and shipping. The budget was reduced by using a $2.95 Micro‑USB cable, a $6 terminal/header set, and a $1.05 PL2303TA serial cable instead of the earlier higher estimates.
+The estimated parts subtotal is **exactly $600 before tax and shipping**. The budget includes a $25 EMI and grounding kit—copper foil tape, ferrite clamps, and shielded hookup wire—to help keep electrical noise away from the sensitive preamplifier. The budget was reduced elsewhere by using a $2.95 Micro‑USB cable, a $6 terminal/header set, and a $1.05 PL2303TA serial cable instead of the earlier higher estimates.
 
 ## Build plan
 

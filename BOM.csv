@@ -35,7 +35,9 @@ STM BILL OF MATERIALS — PLANNED BUILD,,,,,,
 27,10x AA battery holder,2,Amazon,10,https://www.amazon.com/s?k=10x+AA+battery+holder,Supplies +15 V and -15 V
 28,1x AA battery holder,1,Amazon,4,https://www.amazon.com/s?k=1x+AA+battery+holder,Sample bias
 29,AA batteries,24,Amazon,25,https://www.amazon.com/s?k=AA+alkaline+batteries+24+pack,21 needed plus spares
-,ESTIMATED PARTS SUBTOTAL,,,575.00,,Before tax and shipping
-,GRANT FUNDING REQUESTED,,,600.00,,The $25.00 difference covers price changes and checkout costs
+,--- NOISE CONTROL AND GROUNDING ---,,,,,
+30,EMI and grounding kit: copper foil tape ferrite clamps and shielded hookup wire,1 set,Amazon,25,https://www.amazon.com/s?k=copper+foil+tape+ferrite+clamps+shielded+hookup+wire,Reduces electrical noise around the sensitive preamplifier and scan head
+,ESTIMATED PARTS SUBTOTAL,,,600.00,,Before tax and shipping
+,GRANT FUNDING REQUESTED,,,600.00,,Matches the itemized parts total
 ,,,,,,
 ,PRICE NOTE,,,,,Links and estimates were checked on 2026-08-27; confirm availability and final price before ordering.
