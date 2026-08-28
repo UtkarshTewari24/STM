@@ -1,43 +1,40 @@
-STM BILL OF MATERIALS — PLANNED BUILD,,,,,,
+STM BILL OF MATERIALS — $600 BUILD,,,,,,
 #,Part,Qty,Supplier,Cost (USD),Purchase URL,Purpose
 ,--- CONTROLLER BOARD ---,,,,,
-1,ESP32-DevKitC (WROOM-32),1,Mouser,15,https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-DevKitC-32D,Runs the firmware and feedback loop
-2,DAC 2 Click (LTC2601 16-bit) MIKROE-950,3,Mikroe,96,https://www.mikroe.com/dac-2-click,Drives the piezo scanner's X Y and Z quadrants
-3,ADC 8 Click (ADS1115 16-bit) MIKROE-3164,1,Mikroe,32,https://www.mikroe.com/adc-8-click,Reads the tunneling-amplifier output
-4,TL072 op-amp,2,DigiKey,3,https://www.digikey.com/en/products/detail/texas-instruments/TL072ACDR/562849,Conditions controller signals
+1,ESP32-DevKitC (WROOM-32),1,Mouser,15.00,https://www.mouser.com/ProductDetail/Espressif-Systems/ESP32-DevKitC-32D,Runs the firmware and feedback loop
+2,DAC 2 Click (LTC2601 16-bit) MIKROE-950,3,Mikroe,96.00,https://www.mikroe.com/dac-2-click,Drives the piezo scanner's X Y and Z quadrants
+3,ADC 8 Click (ADS1115 16-bit) MIKROE-3164,1,Mikroe,32.00,https://www.mikroe.com/adc-8-click,Reads the tunneling-amplifier output
+4,TL072 op-amp,2,DigiKey,3.00,https://www.digikey.com/en/products/detail/texas-instruments/TL072ACDR/562849,Conditions controller signals
 5,USB-TTL Converter PL2303TA (not HXA),1,ElectroPeak,1.05,https://electropeak.com/pl2303ta-usb-to-ttl-cable,Provides the high-speed data link
 6,USB-A to Micro-B cable 3 ft,1,Adafruit,2.95,https://www.adafruit.com/product/592,Flashes the ESP32
-7,2.54 mm terminals plus male/female pin headers,1 set,SparkFun + Amazon,6,https://www.sparkfun.com/products/116 | https://www.sparkfun.com/products/115 | https://www.amazon.com/dp/B08XWCN43C,Makes the ESP32 and Click boards replaceable
-8,Resistors: 17x 3k3 / 9x 220 / 1x 1k6,1 set,DigiKey,10,https://www.digikey.com/en/products/result?keywords=3.3k%20220%201.6k%20resistor,Controller board parts
-9,Capacitors: 6x 4n7F / 4x 100nF,1 set,DigiKey,8,https://www.digikey.com/en/products/result?keywords=4.7nF%20100nF%20ceramic%20capacitor,Controller board parts
-10,Diode 1N5819,2,DigiKey,3,https://www.digikey.com/en/products/detail/onsemi/1N5819RLG/1471526,Polarized controller-board protection parts
-11,Assorted 5 mm and 3 mm LEDs,1 set,Amazon,8,https://www.amazon.com/s?k=5mm+3mm+assorted+LED+kit,Status indicators
-12,Female-to-male jumper cables,30,Amazon,9,https://www.amazon.com/s?k=female+to+male+jumper+wires,Board interconnects
+7,2.54 mm terminals plus male/female pin headers,1 set,SparkFun + Amazon,6.00,https://www.sparkfun.com/products/116 | https://www.sparkfun.com/products/115 | https://www.amazon.com/dp/B08XWCN43C,Makes the ESP32 and Click boards replaceable
+8,Resistors: 17x 3k3 / 9x 220 / 1x 1k6,1 set,Walmart,10.00,https://www.walmart.ca/en/ip/156-Values-Resistor-Kit-Stable-Pulse-Loading-Lightweight-Carbon-Film-Resistor-Assortment-Low-Noise-Wear-Resistance-1-4W-For-Electronic-Equipment/2J57CO3UC5OZ,Controller board parts
+9,Capacitors: 6x 4n7F / 4x 100nF,1 set,Kurd Electronics,8.00,https://kurdelectronic.com/product/960pcs-2pf-100nf-ceramic-capacitor-kit/,Controller board parts
+10,Diode 1N5819,2,DigiKey,3.00,https://www.digikey.com/en/products/detail/onsemi/1N5819RLG/917656,Polarized controller-board protection parts
+11,5 mm LED indicator pack,1 pack,Adafruit,8.00,https://www.adafruit.com/product/4203,Status indicators
+12,Female-to-male jumper cables,30,Adafruit,9.00,https://www.adafruit.com/product/826,Board interconnects
 ,--- TUNNELING AMPLIFIER ---,,,,,
-13,ADA4637-1ARZ op-amp,2,DigiKey,30,https://www.digikey.com/en/products/result?keywords=ADA4637-1ARZ,Transimpedance preamplifier; one spare
-14,RC1206JR-07100ML 100M ohm SMD resistor,5,DigiKey,12,https://www.digikey.com/en/products/detail/yageo/RC1206JR-07100ML/5919157,Preamp feedback resistors; includes spares
-15,Shielding can BMI-S-201-F,1,DigiKey,6,https://www.digikey.com/en/products/result?keywords=BMI-S-201-F,Shields the preamplifier; leave one corner available for ground
-16,SMD caps: 2x 47nF / 2x 1uF / 2x 4.7uF 35V (TAJ6032),1 set,DigiKey,15,https://www.digikey.com/en/products/result?keywords=TAJ6032%2047nF%201uF,Preamp decoupling; 4.7uF parts must be polarized and 35 V rated
+13,ADA4637-1ARZ op-amp,2,Mouser,30.00,https://www.mouser.com/ProductDetail/Analog-Devices/ADA4637-1ARZ,Transimpedance preamplifier; one spare
+14,RC1206JR-07100ML 100M ohm SMD resistor,5,DigiKey,12.00,https://www.digikey.com/en/products/detail/yageo/RC1206JR-07100ML/5919157,Preamp feedback resistors; includes spares
+15,Shielding can BMI-S-201-F,1,DigiKey,6.00,https://www.digikey.com/en/products/detail/laird-technologies-emi/BMI-S-201-F/2182404,Shields the preamplifier; leave one corner available for ground
+16,Preamp capacitors: 47nF / 1uF / 4.7uF 35V,1 set,Mouser,15.00,https://www.mouser.com/ProductDetail/AVX/TAJ475K035RNJ,Preamp decoupling; 4.7uF parts must be polarized and 35 V rated
 ,--- PCBs ---,,,,,
-17,Controller board PCB (KiCad_RTM_Adapterboard_v3_0),1,JLCPCB,25,https://jlcpcb.com/,Main board fabrication
-18,Tunneling-amplifier PCB (Tunnelling-Amp-20),1,JLCPCB,20,https://jlcpcb.com/,Preamplifier board fabrication
+17,Controller board PCB (KiCad_RTM_Adapterboard_v3_0),1,JLCPCB,25.00,https://jlcpcb.com/,Main board fabrication
+18,Tunneling-amplifier PCB (Tunnelling-Amp-20),1,JLCPCB,20.00,https://jlcpcb.com/,Preamplifier board fabrication
 ,--- MECHANICS ---,,,,,
-19,Thorlabs KC1T/M kinematic mount,1,Thorlabs,95,https://www.thorlabs.com/thorproduct.cfm?partnumber=KC1T%2FM,Scan head with three fine adjusters
-20,Thorlabs ER2-P4 cage rods 2 in 4-pack,1,Thorlabs,32,https://www.thorlabs.com/thorproduct.cfm?partnumber=ER2-P4,Cage frame
-21,Thorlabs SP05/M cage adapter plate,1,Thorlabs,42,https://www.thorlabs.com/thorproduct.cfm?partnumber=SP05%2FM,Cage frame
+19,Thorlabs KC1T/M kinematic mount,1,Thorlabs,95.00,https://www.thorlabs.com/thorproduct.cfm?partnumber=KC1T%2FM,Scan head with three fine adjusters
+20,Thorlabs ER2-P4 cage rods 2 in 4-pack,1,Thorlabs,32.00,https://www.thorlabs.com/thorproduct.cfm?partnumber=ER2-P4,Cage frame
+21,Thorlabs SP05/M cage adapter plate,1,Thorlabs,42.00,https://www.thorlabs.com/thorproduct.cfm?partnumber=SP05%2FM,Cage frame
 ,--- SCANNER HEAD ---,,,,,
-22,Piezo disks 20 mm,10,Amazon,12,https://www.amazon.com/s?k=20mm+piezo+discs,Quartered to make the piezo scanner
-23,Gold pins,10,Amazon,10,https://www.amazon.com/s?k=gold+plated+PCB+pins,Bond to piezo quadrants
-24,Conductive silver lacquer,1,Amazon,20,https://www.amazon.com/s?k=conductive+silver+lacquer,Restores conductivity between each pin and quadrant
-25,Silver wire 0.25 mm,1,Amazon,15,https://www.amazon.com/s?k=0.25mm+silver+wire,Tip stock; cut at 30 degrees
-26,Enamelled copper wire 0.1 mm,1,Amazon,8,https://www.amazon.com/s?k=0.1mm+enameled+copper+wire,Flexible leads to piezo quadrants
+22,Piezo disks 20 mm,10,Shokitech,12.00,https://shokitech.com/product/20mm-piezo-buzzer-electronic-alarm-sounder/,Quartered to make the piezo scanner
+23,Gold-plated 2.54 mm pins,10,Denentech,10.00,https://www.denentech.com/product/detail/cd3f638427.html,Bond to piezo quadrants
+24,Conductive silver lacquer,1,Newark,20.00,https://www.newark.com/mg-chemicals/842ar-15ml/silver-conductive-coating-jar/dp/70AC6732,Restores conductivity between each pin and quadrant
+25,0.25 mm 999 silver wire,1,Rashbel,15.00,https://rashbel.com/products/round-pure-fine-999-silver-wire-soft-prd-1602,Tip stock; cut at 30 degrees
+26,Enamelled copper wire 0.1 mm,1,Reichelt,8.00,https://www.reichelt.com/de/en/shop/product/enamelled_copper_wire_diameter_0_1_mm_length_140_m-9613,Flexible leads to piezo quadrants
 ,--- POWER ---,,,,,
-27,10x AA battery holder,2,Amazon,10,https://www.amazon.com/s?k=10x+AA+battery+holder,Supplies +15 V and -15 V
-28,1x AA battery holder,1,Amazon,4,https://www.amazon.com/s?k=1x+AA+battery+holder,Sample bias
-29,AA batteries,24,Amazon,25,https://www.amazon.com/s?k=AA+alkaline+batteries+24+pack,21 needed plus spares
+27,10x AA battery holder,2,The Pi Hut,10.00,https://thepihut.com/products/10aa-holder,Supplies +15 V and -15 V
+28,1x AA battery holder,1,SparkFun,4.00,https://www.sparkfun.com/battery-holder-1xaa-pth.html,Sample bias
+29,AA batteries,24,Harbor Freight,25.00,https://www.harborfreight.com/promotions/thunderbolt-batteries/aa-alkaline-batteries-24-pack-61271.html,21 needed plus spares
 ,--- NOISE CONTROL AND GROUNDING ---,,,,,
-30,EMI and grounding kit: copper foil tape ferrite clamps and shielded hookup wire,1 set,Amazon,25,https://www.amazon.com/s?k=copper+foil+tape+ferrite+clamps+shielded+hookup+wire,Reduces electrical noise around the sensitive preamplifier and scan head
-,ESTIMATED PARTS SUBTOTAL,,,600.00,,Before tax and shipping
-,GRANT FUNDING REQUESTED,,,600.00,,Matches the itemized parts total
-,,,,,,
-,PRICE NOTE,,,,,Links and estimates were checked on 2026-08-27; confirm availability and final price before ordering.
+30,Copper foil tape with conductive adhesive,4 rolls,Adafruit,25.00,https://www.adafruit.com/product/1128,Grounding and shielding around the preamplifier and scan head
+,TOTAL,,,600.00,,
