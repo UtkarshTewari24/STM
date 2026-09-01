@@ -34,11 +34,10 @@ The preamplifier sits close to the tip. Its high-value feedback resistor is what
 
 ## Parts and cost
 
-The listed build total is **$500.62**. Every item has a purchase link in [BOM.csv](BOM.csv). It covers the electronics, boards, mechanics, scanner head, batteries, and shielding material.
+The request to Stardance is **$500.62**. The [BOM.xlsx](BOM.xlsx) has the full breakdown: quantity, unit cost, item total, purchase link, and why each part is needed. [BOM.csv](BOM.csv) is the same list in a simple format.
 
-## Design files
+## PCB files
 
-- [Scan-stage CAD archive](STM.f3z) — open this Fusion 360 archive to see the `ScanStage` assembly.
 - [Controller-board Gerbers](docs/pcb/Adapterboard-PTH.zip) — upload this archive to JLCPCB to make the controller board.
 - [Tunneling-amplifier Gerbers](docs/pcb/Tunnelling-Amp.zip) — upload this archive to JLCPCB to make the preamplifier board.
 
