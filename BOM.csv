@@ -17,7 +17,7 @@
 16,Tunneling amplifier,Preamp capacitor set: 47nF / 1uF / 4.7uF 35V,1 set,Mouser,15.00,15.00,https://www.mouser.com/ProductDetail/AVX/TAJ475K035RNJ,Provides preamplifier decoupling; 4.7uF capacitors must be polarized and 35V rated
 17,PCB,Controller board (Adapterboard-PTH),1,JLCPCB,25.00,25.00,https://jlcpcb.com/,Fabricate using docs/pcb/Adapterboard-PTH.zip
 18,PCB,Tunneling-amplifier board,1,JLCPCB,20.00,20.00,https://jlcpcb.com/,Fabricate using docs/pcb/Tunnelling-Amp.zip
-19,Mechanics,Thorlabs KC1T/M kinematic mount,1,Thorlabs,95.00,95.00,https://www.thorlabs.com/thorproduct.cfm?partnumber=KC1T%2FM,Holds and finely adjusts the scan head
+19,Mechanics,Thorlabs KC1T/M kinematic mount,2,Thorlabs,116.13,232.26,https://www.thorlabs.com/thorproduct.cfm?partnumber=KC1T%2FM,Two mounts support the revised scan-head design and fine adjustment; price converts the linked EUR listing to USD
 20,Mechanics,Thorlabs ER2-P4 cage rods 2 in 4-pack,1,Thorlabs,26.82,26.82,https://www.thorlabs.com/thorproduct.cfm?partnumber=ER2-P4,Builds the cage frame
 21,Mechanics,Thorlabs SP05/M cage adapter plate,1,Thorlabs,31.00,31.00,https://www.thorlabs.com/thorproduct.cfm?partnumber=SP05%2FM,Connects the cage-frame sections
 22,Scanner head,20 mm piezo disks,1 pack (10),Shokitech,12.00,12.00,https://shokitech.com/product/20mm-piezo-buzzer-electronic-alarm-sounder/,Provides material for the quadrant scanner
@@ -29,4 +29,8 @@
 28,Power,1x AA battery holder,1,SparkFun,4.00,4.00,https://www.sparkfun.com/battery-holder-1xaa-pth.html,Provides sample bias
 29,Power,AA battery pack (24),1 pack,Harbor Freight,7.99,7.99,https://www.harborfreight.com/promotions/thunderbolt-batteries/aa-alkaline-batteries-24-pack-61271.html,Provides 21 batteries plus spares
 30,Noise control,Copper foil tape with conductive adhesive,4 rolls,Adafruit,5.95,23.80,https://www.adafruit.com/product/1128,Provides grounding and shielding around the preamplifier and scan head
-,TOTAL,,,,,500.62,,Requested from Stardance; tools are not included
+31,Reference sample,HOPG graphite calibration sample,1,Bruker,250.00,250.00,https://store.bruker.com/products/hopg,Provides a known conductive surface for checking the STM before testing other samples
+,STARDANCE TOTAL,,,,,887.88,,Requested from Stardance; only rows 1 through 31 are included
+32,Self-funded tools,Adafruit electronics toolkit,1,Adafruit,100.00,100.00,https://www.adafruit.com/product/136,My own purchase for soldering and basic assembly tools
+33,Self-funded tools,USB microscope with stand,1,Adafruit,79.95,79.95,https://www.adafruit.com/product/636,My own purchase for inspecting solder joints and tip preparation
+,SELF-FUNDED TOTAL,,,,,179.95,,Not requested from Stardance
