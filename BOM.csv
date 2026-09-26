@@ -15,8 +15,8 @@
 14,Tunneling amplifier,RC1206JR-07100ML 100 Mohm SMD resistor,5,DigiKey,2.40,12.00,https://www.digikey.com/en/products/detail/yageo/RC1206JR-07100ML/5919157,Provides the preamplifier feedback resistance and spares
 15,Tunneling amplifier,BMI-S-201-F shielding can,1,DigiKey,6.00,6.00,https://www.digikey.com/en/products/detail/laird-technologies-emi/BMI-S-201-F/2182404,Shields the sensitive preamplifier
 16,Tunneling amplifier,Preamp capacitor set: 47nF / 1uF / 4.7uF 35V,1 set,Mouser,15.00,15.00,https://www.mouser.com/ProductDetail/AVX/TAJ475K035RNJ,Provides preamplifier decoupling; 4.7uF capacitors must be polarized and 35V rated
-17,PCB,Controller board (Adapterboard-PTH),1,JLCPCB,25.00,25.00,https://jlcpcb.com/,Fabricate using docs/pcb/Adapterboard-PTH.zip
-18,PCB,Tunneling-amplifier board,1,JLCPCB,20.00,20.00,https://jlcpcb.com/,Fabricate using docs/pcb/Tunnelling-Amp.zip
+17,PCB,Controller board (Adapterboard-PTH),1,JLCPCB,25.00,25.00,https://jlcpcb.com/,Fabricate using PCB/Adapterboard-PTH.zip
+18,PCB,Tunneling-amplifier board,1,JLCPCB,20.00,20.00,https://jlcpcb.com/,Fabricate using PCB/Tunnelling-Amp.zip
 19,Mechanics,Thorlabs KC1T/M kinematic mount,2,Thorlabs,116.13,232.26,https://www.thorlabs.com/thorproduct.cfm?partnumber=KC1T%2FM,Two mounts support the revised scan-head design and fine adjustment; price converts the linked EUR listing to USD
 20,Mechanics,Thorlabs ER2-P4 cage rods 2 in 4-pack,1,Thorlabs,26.82,26.82,https://www.thorlabs.com/thorproduct.cfm?partnumber=ER2-P4,Builds the cage frame
 21,Mechanics,Thorlabs SP05/M cage adapter plate,1,Thorlabs,31.00,31.00,https://www.thorlabs.com/thorproduct.cfm?partnumber=SP05%2FM,Connects the cage-frame sections

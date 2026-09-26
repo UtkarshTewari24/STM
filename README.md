@@ -40,8 +40,15 @@ The [BOM.xlsx](BOM.xlsx) has separate **Stardance request** and **Self-funded** 
 
 ## PCB files
 
-- [Controller-board Gerbers](docs/pcb/Adapterboard-PTH.zip) — upload this archive to JLCPCB to make the controller board.
-- [Tunneling-amplifier Gerbers](docs/pcb/Tunnelling-Amp.zip) — upload this archive to JLCPCB to make the preamplifier board.
+- [Controller-board Gerbers](PCB/Adapterboard-PTH.zip) — upload this archive to JLCPCB to make the controller board.
+- [Tunneling-amplifier Gerbers](PCB/Tunnelling-Amp.zip) — upload this archive to JLCPCB to make the preamplifier board.
+
+The project folders are kept simple:
+
+- [Journal](Journal/) — dated build notes and next steps.
+- [PCB](PCB/) — the two Gerber archives and ordering notes.
+- [CAD](CAD/) — reserved for future custom parts; this first build has no custom CAD yet.
+- [Software](Software/) — the desktop app and serial-control helpers.
 
 ## Build order
 
@@ -59,13 +66,13 @@ The tip sweeps back and forth in X while the Y position steps upward after each 
 
 ## Desktop app
 
-`stm_app.py` is a small desktop control app. It can set scan parameters, display a live image, save a scan, and send serial commands to the controller.
+`Software/stm_app.py` is a small desktop control app. It can set scan parameters, display a live image, save a scan, and send serial commands to the controller.
 
 ```bash
 git clone https://github.com/UtkarshTewari24/STM.git
 cd STM
 python3 -m pip install numpy matplotlib pyserial
-python3 stm_app.py
+python3 Software/stm_app.py
 ```
 
 The app needs the matching controller firmware and connected STM hardware before it can scan.
@@ -74,9 +81,11 @@ The app needs the matching controller firmware and connected STM hardware before
 
 - `BOM.csv` — parts, quantities, prices, and purchase links.
 - `BOM.xlsx` — the same BOM with separate grant and self-funded sheets.
-- `stm_app.py` — desktop scan-control app.
+- `Software/` — desktop scan-control app and serial helpers.
 - `docs/images/` — system drawing, circuit references, and raster-scan drawing.
-- `docs/pcb/` — controller and tunneling-amplifier Gerber archives.
+- `PCB/` — controller and tunneling-amplifier Gerber archives.
+- `Journal/` — dated build notes.
+- `CAD/` — place for future custom mechanical design files.
 
 ## Safety
 
