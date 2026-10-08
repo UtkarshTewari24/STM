@@ -1,5 +1,5 @@
 # CAD
 
-There are no custom CAD files for this first build yet. The scan head uses off-the-shelf Thorlabs hardware and a hand-built piezo scanner, so no CAD model was created for it. A full assembly `.STEP` file is still required before the project can be submitted.
+`STM.f3z` is the Fusion 360 model for the STM assembly.
 
-If a custom bracket, enclosure, or sample holder is designed later, its editable source and export files will go here.
+`stm_cad.png` is a picture of the model. A `.STEP` export still needs to be added before shipping.

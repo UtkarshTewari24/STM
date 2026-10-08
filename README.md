@@ -19,7 +19,7 @@ There are two ways to scan:
 
 ## The main pieces
 
-- An ESP32 sends commands and reads the measured current.
+- The controller sends commands and reads the measured current.
 - The piezo driver moves the tip in X, Y, and Z.
 - The preamplifier turns the tiny tunneling current into a voltage the controller can read.
 - A kinematic mount, piezo disk, and sharp wire make the scan head.
@@ -47,7 +47,8 @@ The project folders are kept simple:
 
 - [Journal](Journal/) — dated build notes and next steps.
 - [PCB](PCB/) — the two Gerber archives and ordering notes.
-- [CAD](CAD/) — reserved for future custom parts; this first build has no custom CAD yet.
+- [CAD](CAD/) — Fusion 360 assembly model.
+- [Firmware](Firmware/) — controller source project.
 - [Software](Software/) — the desktop app and serial-control helpers.
 
 ## Build order
@@ -85,7 +86,8 @@ The app needs the matching controller firmware and connected STM hardware before
 - `docs/images/` — system drawing, circuit references, and raster-scan drawing.
 - `PCB/` — controller and tunneling-amplifier Gerber archives.
 - `Journal/` — dated build notes.
-- `CAD/` — place for future custom mechanical design files.
+- `CAD/` — Fusion 360 assembly model and preview image.
+- `Firmware/` — controller source project.
 
 ## Safety
 

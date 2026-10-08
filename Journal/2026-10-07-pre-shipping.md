@@ -1,7 +1,7 @@
 # 2026-10-07 — pre-shipping review
 
-The repository is organized into `CAD/`, `PCB/`, `Software/`, and `Journal/`.
+Added the Fusion 360 assembly file in `CAD/` and the controller project in `Firmware/`.
 
-The two PCB Gerber archives are present in `PCB/`, and the desktop software is present in `Software/`.
+The PCB files and desktop software are also in the repo.
 
-The project is **not ready to submit yet**. A full `.STEP` assembly and the ESP32 controller firmware still need to be added. The pre-shipping checklist records the remaining work.
+Still needed: a `.STEP` CAD export, a firmware port for the ESP32 BOM, build photos, and hardware testing.
