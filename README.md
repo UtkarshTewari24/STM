@@ -34,9 +34,9 @@ The preamplifier sits close to the tip. Its high-value feedback resistor is what
 
 ## Parts and cost
 
-The Stardance request is **$887.88**. It includes the build materials, two KC1T/M kinematic mounts for the revised scan-head mechanics, and an HOPG graphite reference sample to check the STM on a known conductive surface.
+The full build comes to **$1,067.83**. I am asking Stardance for **$600** and I will pay the other **$467.83**.
 
-The [BOM.xlsx](BOM.xlsx) has separate **Stardance request** and **Self-funded** sheets, with quantity, unit cost, item total, purchase link, and why each part is needed. The $179.95 of soldering and inspection equipment on the Self-funded sheet is not part of the grant request. [BOM.csv](BOM.csv) has the same split in a simple format.
+[BOM.xlsx](BOM.xlsx) and [BOM.csv](BOM.csv) list every part, price, purchase link, and why it is needed.
 
 ## PCB files
 
@@ -81,7 +81,7 @@ The app needs the matching controller firmware and connected STM hardware before
 ## Files
 
 - `BOM.csv` — parts, quantities, prices, and purchase links.
-- `BOM.xlsx` — the same BOM with separate grant and self-funded sheets.
+- `BOM.xlsx` — the same BOM as a spreadsheet.
 - `Software/` — desktop scan-control app and serial helpers.
 - `docs/images/` — system drawing, circuit references, and raster-scan drawing.
 - `PCB/` — controller and tunneling-amplifier Gerber archives.
